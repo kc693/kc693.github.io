@@ -6,5 +6,5 @@ And yes this website is still under construction.
 
 Estimated completion date: Summer 2019  
 
-Thanks to these intellectuals for inspiring parts of my page:
+Thanks to these intellectuals for inspiring parts of my page:  
 **Adrian Lange:** https://adrianlange.com/
