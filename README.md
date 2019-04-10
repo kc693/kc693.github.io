@@ -8,6 +8,6 @@ Estimated completion date: Summer 2019
 
 Thanks to these intellectuals for inspiring parts of my page (in first name alphabetical order):  
 **Adrian Lange:** https://adrianlange.com/  
-**Clara Song**
+**Clara Song**  
 **Matthew Suh:** https://matthewsuh.me/  
 
