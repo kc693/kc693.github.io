@@ -10,4 +10,4 @@ Thanks to these intellectuals for inspiring parts of my page (in alphabetical or
 **Adrian Lange:** https://adrianlange.com/  
 **Clara Song**  
 **Matthew Suh:** https://matthewsuh.me/  
-
+**Tomasz Chmielewski:** https://tomchm.com/
