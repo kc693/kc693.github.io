@@ -10,6 +10,11 @@
         <title>Welcome to the Salty Spitoon</title>
         <link rel="stylesheet" type="text/css" href="lol.css">
         <link rel="shortcut icon" href="favicon.png" type="image/png">
+
+        <!-- Name text -->
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+        <!-- Main content text -->
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" type="text/css">
     </head>
 
@@ -17,20 +22,15 @@
         <header id="header">
             <div class="container">
                 <h1>
-                        KYLE CHOI
+                    KYLE CHOI
                 </h1>
-
-                <!-- <h2>
-                    LEFT? TEXT BABY
-                </h2> -->
             </div>
 
             <div class="header-right">
-                <a class="active" href="index.html">Home</a>
-                <!-- <a href="contact.html">Contact</a>
-                <a href="about.html">About</a> -->
-                <a href="#about">About</a>
-                <a href="#contact">Contact</a>
+                <a class="removeline" href="#intro">Welcome</a> <span>&#8226</span>
+                <a class="removeline" href="#about">About</a> <span>&#8226</span>
+                <a class="removeline" href="#projects">Projects</a> <span>&#8226</span>
+                <a class="removeline" href="#contact">Contact</a>
             </div>
             
         </header>
@@ -38,75 +38,93 @@
         <section class = "main">
             <div id="intro">
                 Welcome
+                <div class="chunk-of-text">
+                    This is my personal website, which is still in the development phase. I am in the process of
+                    learning HTML and CSS so I'm aiming to complete this project during the summer. If you have any questions
+                    or want to reach out, feel free to go to the <a class="samecolor" href="#contact">contact</a> section and reach out! <br><br>
+                </div>
             </div>
-
-            <p>
-                This is my personal website, which is (clearly) still in the development phase. I am in the process of
-                learning HTML and CSS so I'm aiming to complete this project during the summer. If you have any questions
-                or want to reach out, go to the <a href="#contact">contact</a> section and shoot me an email! <br><br>
-            </p>
-
 
             <div id="about">
                 About Me
+                <div class="chunk-of-text">
+                    Amateur data scientist looking to help people and have fun while doing it. I am mainly interested
+                    in utilizing machine learning and artificial intelligence techniques to develop consumer products.
+                    I love catching up on IoT trends! (e.g. ubiquitous computing, mobile sensing, wearable tech)<br><br>
+
+                    If you need someone to create a website for you, I'm not your guy.<br><br>
+
+                    <div id="video">
+                        Here's one of my favorite gifs from the '/aww' subreddit:
+                        <p>
+                            <video autoplay loop muted src="cute.mp4" type="video/mp4" width="320" height="240" >
+                                Oops! Looks like I suck at embedding videos or your browser doesn't support mp4 videos. Bummer :(
+                            </video>
+                        </p>
+                    </div>
+
+                    <p align="center">
+                        Here's my <a class="samecolor" href="https://www.youtube.com/watch?v=1qN72LEQnaU" target="_blank">resume</a>.
+                    </p>
+
+                    <p align="center">
+                        And here's my actual <a class="samecolor" href="Resume_Template.pdf" target="_blank">resume</a>.
+                    </p>
+                </div>
             </div>
-            <p>
-                Amateur data scientist looking to help people and have fun while doing it. I am mainly interested
-                in utilizing machine learning/artificial intelligence techniques to develop consumer products.<br><br>
-                If you need someone to develop a webpage for you, I'm not your guy.
-            </p>
                 
-            <div id="video">
-                <br>
-                Here's one of my favorite gifs from the '/aww' subreddit:
-                <p>
-                    <video autoplay loop muted src="cute.mp4" type="video/mp4" width="320" height="240" >
-                        Oops! Looks like I suck at embedding videos or your browser doesn't support mp4 videos. Bummer :(
-                    </video>
-                </p>
+
+            <div id="projects">
+                Projects
+                <!-- <div class="chunk-of-text">
+                    None so far.. :^(
+                </div> -->
+                <div class="row">
+                    <div class="project-block">
+                        <a class="nonederline" href="webpage.html">my website</a>
+                    </div>
+
+                    <div class="project-block">
+                        <a class="nonederline" href="#">Fake Project</a>
+                    </div>
+
+                    <div class="project-block">
+                        <a class="nonederline" href="#">Fake Project 2</a>
+                    </div>
+                </div>
             </div>
 
-            <!-- <hr> -->
-
-            <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
             
             <div id="contact">
                 Contact
+                <div class="chunk-of-text">
+                    I have no PHP knowledge and need to learn it to create the contact form. 
+                    For now, you can <a class="samecolor" href="mailto:fakeEmail@gmail.net">send an email</a> to me.<br><br>
+                </div>
             </div>
-            <p>
-                (Coming soon)<br>
-                I have no PHP knowledge and need to learn it to create the contact form. 
-                For now, you can <a href="mailto:fakeEmail@gmail.net">send an email</a> to me.
-            </p>
+
 
             <div id="social-media">
-                Or you can reach me through social media. <br>
-                <a href="https://github.com/kc693" target="_blank">GitHub</a>
-                <a href="https://www.youtube.com/watch?v=1qN72LEQnaU" target="_blank">Youtube</a>
-                <a href="http://linkedin.com/in/kylejjchoi/" target="_blank">LinkedIn</a>
+                Or you can reach me through social media: <br>
+                <a class="samecolor" href="https://github.com/kc693" target="_blank">GitHub</a>
+                <a class="samecolor" href="http://linkedin.com/in/kylejjchoi/" target="_blank">LinkedIn</a>
+                <!-- <a href="https://www.youtube.com/watch?v=1qN72LEQnaU" target="_blank">Resume</a> -->
+                <a class="samecolor" href="https://twitter.com/KyleLearns" target="_blank">Twitter</a>
             </div>
+
+            <!-- <div id="insta-feed">
+                Going to embed photos here.
+            </div> -->
             
-            <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus luctus efficitur dui, eu ornare arcu. Aliquam vulputate, tortor ut tincidunt aliquam, dolor tortor venenatis felis, sed ultrices ligula enim ut arcu. Nam semper ligula sit amet neque ornare bibendum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ut tristique orci. In ultrices sollicitudin felis. Sed ut consectetur est, a commodo mi. Ut tincidunt ut neque vitae maximus. Praesent vel viverra nisi, at viverra dolor. Ut vehicula mauris ut gravida dignissim. Donec blandit enim neque, eget suscipit urna congue gravida.
 
-                Ut aliquet lacinia semper. In in lectus urna. Aenean finibus nulla sed sapien viverra, at dictum lacus placerat. Nulla eu mauris est. Nam nec justo id felis vehicula efficitur. Suspendisse et mattis ante, ut porttitor justo. Nulla facilisi. Integer at consectetur felis. Nulla in neque sit amet lectus luctus elementum. Integer felis magna, ullamcorper non quam eget, volutpat vulputate dolor. Curabitur vel erat pellentesque felis dictum sodales tempor sed ante.
-                
-                Cras volutpat justo odio, a vestibulum ipsum mollis nec. Sed sed dapibus augue, et vehicula enim. Quisque imperdiet vehicula ipsum sit amet sagittis. Aliquam erat volutpat. Nunc tincidunt velit sed lacus cursus scelerisque. Duis feugiat dolor nunc, tempor porta nulla placerat id. Mauris consequat purus eu odio gravida dapibus. Donec bibendum ullamcorper nulla sit amet fermentum. Aenean feugiat convallis libero. Pellentesque lorem odio, posuere et ex at, pellentesque semper odio. Suspendisse potenti. Suspendisse scelerisque nulla quis pulvinar consequat. Phasellus ac egestas massa. Nam a tincidunt velit. Etiam vitae iaculis metus. Nulla facilisi.
-                
-                Maecenas congue nulla non hendrerit lobortis. Quisque sed dignissim dui. Nunc placerat interdum placerat. Phasellus non egestas risus. Nulla mattis commodo pellentesque. Vestibulum non pulvinar orci, ut maximus eros. Curabitur arcu lorem, venenatis sed viverra molestie, consequat in erat. Praesent bibendum fringilla felis, ut vestibulum enim auctor ut. Nunc tristique faucibus viverra.
-                
-                Nam feugiat mi ut tincidunt rhoncus. Curabitur eget blandit quam, lacinia hendrerit nisl. Duis tempor aliquet laoreet. Nunc lobortis ut dui ut porta. Sed dapibus diam est, quis placerat dui dapibus vel. Nulla in libero lectus. Suspendisse ac vulputate lorem. Etiam accumsan justo non mi porttitor sagittis.
-            </p>
             <!-- <br><a href="Resume_Template.pdf" target="_blank">Not clickbait</a>  -->
-            <br>
-
             <div id="jebaited">
-                <a href="https://i.redd.it/m0rdjx5xetq11.png" target="_blank">Not clickbait</a>
+                <a class="samecolor" href="https://i.redd.it/m0rdjx5xetq11.png" target="_blank">Not clickbait</a>
             </div>
 
         </section>
 
-        <footer>
+        <!-- <footer>
             <a href="https://github.com/kc693" target="_blank">
                 <svg viewBox="-0.5 -1 25 25" width="5%" height="5%" style="enable-background:new 0 0 50 50;" class="icon">
                     <g>
@@ -131,9 +149,9 @@
                             L12.9,17.3z M12.9,17.3"></path>
                     </g>
                 </svg>
-            </a>
+            </a> -->
             
-            <a href="https://www.youtube.com/watch?v=1qN72LEQnaU" target="_blank">
+            <!-- <a href="https://www.youtube.com/watch?v=1qN72LEQnaU" target="_blank">
                 <svg viewBox="-23 0 115 115" width="4.23%" height="4.23%" class="icon">
                     <g transform="translate(0,-952.36218)">
                         <path style="text-indent:0;text-transform:none;direction:ltr;block-progression:tb;baseline-shift:baseline;
@@ -146,16 +164,16 @@
                         12 c -1.1046,0 -2,0.8954 -2,2 0,1.1046 0.8954,2 2,2 l 40,0 c 1.1046,0 2,-0.8954 2,-2 0,-1.1046 -0.8954,-2 -2,-2 l -40,0 z" fill="#000000" fill-opacity="1" 
                         stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"/>
                     </g>
-                    <!-- <text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by unlimicon</text>
-                    <text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text> -->
+                    <text x="0" y="115" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by unlimicon</text>
+                    <text x="0" y="120" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text>
                 </svg>
-            </a>
+            </a> -->
 
-            <a href="http://linkedin.com/in/kylejjchoi/" target="_blank">
+            <!-- <a href="http://linkedin.com/in/kylejjchoi/" target="_blank">
                 <svg viewBox="-0 -2 25 25" width="5%" height="5%" style="enable-background:new 0 0 25 25;" class="icon">
                 <path id="path-1_24_" d="M19.6,19v-5.8c0-1.4-0.5-2.4-1.7-2.4c-1,0-1.5,0.7-1.8,1.3C16,12.3,16,12.6,16,13v6h-3.4
                     c0,0,0.1-9.8,0-10.8H16v1.5c0,0,0,0,0,0h0v0C16.4,9,17.2,7.9,19,7.9c2.3,0,4,1.5,4,4.9V19H19.6z M8.9,6.7L8.9,6.7
                     C7.7,6.7,7,5.9,7,4.9C7,3.8,7.8,3,8.9,3s1.9,0.8,1.9,1.9C10.9,5.9,10.1,6.7,8.9,6.7z M10.6,19H7.2V8.2h3.4V19z"></path>
                 </svg>
-            </a>
+            </a> -->
     </body>
